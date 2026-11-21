@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.py[cod]
+data/*.db
+data/*.index
+data/*.faiss
+data/faiss_index/
+.venv/
+locust-report.html
+work/
