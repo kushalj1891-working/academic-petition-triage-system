@@ -1,0 +1,182 @@
+{
+  "scenario_count": 20,
+  "passed": 20,
+  "failed": 0,
+  "metrics": "Observed by this run; no pre-change baseline exists.",
+  "results": [
+    {
+      "id": "E01",
+      "pass": true,
+      "actual_route": "grant_under_provision",
+      "citations": [
+        "VII(11)(a)"
+      ],
+      "latency_ms": 11180.49
+    },
+    {
+      "id": "E02",
+      "pass": true,
+      "actual_route": "refer_to_committee",
+      "citations": [
+        "VII(11)(a)",
+        "VII(11)(c)"
+      ],
+      "latency_ms": 9.99
+    },
+    {
+      "id": "E03",
+      "pass": true,
+      "actual_route": "refer_to_committee",
+      "citations": [
+        "VII(11)(a)",
+        "VII(11)(c)"
+      ],
+      "latency_ms": 7.97
+    },
+    {
+      "id": "E04",
+      "pass": true,
+      "actual_route": "refer_to_committee",
+      "citations": [
+        "VII(11)(a)"
+      ],
+      "latency_ms": 8.68
+    },
+    {
+      "id": "E05",
+      "pass": true,
+      "actual_route": "refer_to_committee",
+      "citations": [
+        "VII(11)(a)",
+        "VII(11)(c)"
+      ],
+      "latency_ms": 7.85
+    },
+    {
+      "id": "E06",
+      "pass": true,
+      "actual_route": "grant_under_provision",
+      "citations": [
+        "VII(11)(a)"
+      ],
+      "latency_ms": 7.56
+    },
+    {
+      "id": "E07",
+      "pass": true,
+      "actual_route": "grant_under_provision",
+      "citations": [
+        "VII(11)(a)"
+      ],
+      "latency_ms": 5.92
+    },
+    {
+      "id": "E08",
+      "pass": true,
+      "actual_route": "refer_to_committee",
+      "citations": [
+        "VII(11)(a)",
+        "VII(11)(c)"
+      ],
+      "latency_ms": 5.86
+    },
+    {
+      "id": "E09",
+      "pass": true,
+      "actual_route": "refer_to_committee",
+      "citations": [
+        "VII(11)(a)",
+        "VII(11)(c)"
+      ],
+      "latency_ms": 5.89
+    },
+    {
+      "id": "E10",
+      "pass": true,
+      "actual_route": "refer_to_committee",
+      "citations": [
+        "VII(11)(a)",
+        "VII(11)(c)"
+      ],
+      "latency_ms": 5.19
+    },
+    {
+      "id": "E11",
+      "pass": true,
+      "actual_route": "refer_to_committee",
+      "citations": [],
+      "latency_ms": 6.84
+    },
+    {
+      "id": "E12",
+      "pass": true,
+      "actual_route": "refer_to_committee",
+      "citations": [],
+      "latency_ms": 7.37
+    },
+    {
+      "id": "E13",
+      "pass": true,
+      "actual_route": "refer_to_committee",
+      "citations": [],
+      "latency_ms": 6.36
+    },
+    {
+      "id": "E14",
+      "pass": true,
+      "actual_route": "refer_to_committee",
+      "citations": [],
+      "latency_ms": 6.19
+    },
+    {
+      "id": "E15",
+      "pass": true,
+      "actual_route": "refer_to_committee",
+      "citations": [
+        "VII(11)(a)",
+        "VII(11)(c)"
+      ],
+      "latency_ms": 5.46
+    },
+    {
+      "id": "E16",
+      "pass": true,
+      "actual": "schema_reject"
+    },
+    {
+      "id": "E17",
+      "pass": true,
+      "actual": "schema_reject"
+    },
+    {
+      "id": "E18",
+      "pass": true,
+      "actual_route": "refer_to_committee",
+      "citations": [
+        "VII(11)(a)",
+        "VII(11)(c)"
+      ],
+      "latency_ms": 5.71
+    },
+    {
+      "id": "E19",
+      "pass": true,
+      "actual_route": "refer_to_committee",
+      "citations": [
+        "VII(11)(a)",
+        "VII(11)(c)"
+      ],
+      "latency_ms": 5.41
+    },
+    {
+      "id": "E20",
+      "pass": true,
+      "actual_route": "refer_to_committee",
+      "citations": [
+        "VII(11)(a)",
+        "VII(11)(c)"
+      ],
+      "latency_ms": 5.35
+    }
+  ]
+}
