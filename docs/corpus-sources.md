@@ -1,0 +1,9 @@
+# Corpus and provenance
+
+**Selected corpus:** University of Delhi Ordinance VII, attendance rules for undergraduate semester programmes, as published in the University Calendar PDF. Public source: [University of Delhi University Calendar / Ordinance VII](https://www.du.ac.in/uploads/new-web/10062022_University-Calendar-123-321.pdf).
+
+The checked-in `data/corpus.json` contains clause-sized excerpts with a stable document ID, clause, title, clause text, source URL, printed page, authority, and applicability note. Clause 11(a) sets the two-thirds attendance baseline for listed semester examinations and a discretionary 40% ensuing-semester route with conditions. Clause 11(c) permits the Principal to consider serious illness or accident on medical certificates, exclude some lectures when calculating attendance, and decide each case on its merits. Clauses 11(e) and 11(f) record the claim window and the one-third maximum exclusion.
+
+The official PDF is a free public download; the repository stores these short provision excerpts and links to the source rather than redistributing the full document. This is a deliberately bounded demonstration corpus, not every DU ordinance and not every admission batch, programme, or statutory-body rule. The applicable course, batch, amendments, official attendance record, certificate, deadlines, and competent authority must be confirmed before any real decision. Petitions and evaluation scenarios are synthetic only.
+
+Reproducibility: clause records are checked in; inject a local free embedding model identifier through `EMBEDDING_MODEL` and use `python -m app.ingest` to rebuild the vector index. If unset or unavailable, the deterministic lexical fallback uses the checked-in clauses. The vector index is intentionally ignored by Git. No OCR is needed because the source is text-readable.
